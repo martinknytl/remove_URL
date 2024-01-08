@@ -11,4 +11,4 @@ Reference: http://support.mendeley.com/customer/portal/articles/170063-removing-
 
 ## in Bash
 
-cat mybibfile.ib | sed -e '/url /d' > mybibfile2.bib. 
+cat mybibfile.bib | sed -e '/url /d' > mybibfile2.bib. 
