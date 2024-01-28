@@ -11,5 +11,8 @@ Reference: http://support.mendeley.com/customer/portal/articles/170063-removing-
 
 ## in Bash
 
+```
 cd Google\ Drive/My\ Drive/pracovni_slozka/publications_mendeley_MAC/Bibtex/
+
 cat mybibfile.bib | sed -e '/url /d' > mybibfile2.bib. 
+```
