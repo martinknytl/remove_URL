@@ -1,4 +1,4 @@
-# removement_URL
+# removement URL
 How to remove URL from reference list
 
 ## in Mendeley
@@ -15,4 +15,10 @@ Reference: http://support.mendeley.com/customer/portal/articles/170063-removing-
 cd Google\ Drive/My\ Drive/pracovni_slozka/publications_mendeley_MAC/Bibtex/
 
 cat mybibfile.bib | sed -e '/url /d' > mybibfile2.bib
+```
+
+# removement doi numbers
+
+```
+cat library.bib | sed -e '/doi /d' > library_no_doi.bib
 ```
